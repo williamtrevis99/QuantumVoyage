@@ -1,0 +1,81 @@
+
+#record-sales {
+    -fx-padding: 16 30 30 30;
+    -fx-pref-height: 78;
+    -fx-pref-width: 200;
+    
+    
+    -fx-background-insets: 0,0 0 10 0, 0 0 12 0, 0 0 14 0;
+    -fx-background-radius: 16;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 2em;
+}
+#record-sales:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+#record-sales:pressed {
+    -fx-padding: 20 30 26 30;
+    -fx-background-insets: 4 0 0 0,4 0 6 0, 4 0 8 0, 4 0 10 0;
+}
+#record-sales Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+
+#settings-button {
+    -fx-padding: 8 15 15 15;
+    -fx-pref-height: 39;
+    -fx-pref-width: 100;
+    
+    
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 2em;
+}
+#settings-button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+#settings-button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#settings-button Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,1 );
+}
+
+@font-face {
+    font-family: myfont;
+    src: url('app/assets/fonts/defconzero.ttf');
+}
+
+#level-text {
+
+    -fx-font-family: 'Delicious';
+    -fx-font-size: 33px;
+
+
+
+}
